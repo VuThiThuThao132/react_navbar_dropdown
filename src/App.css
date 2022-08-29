@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.home,
+.services,
+.products,
+.contact-us,
+.marketing,
+.consulting,
+.sign-up {
+    display: flex;
+    height: 89vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+}
+
+.home {
+    background-image: url('./images/Home.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+}
+
+.services {
+    background-image: url('./images/Services.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+}
+
+.products {
+    background-image: url('./images/Products.jpg');
+    background-position: center;
+    background-size: fill;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+}
+
+.contact-us {
+    background-image: url('./images/Contact\ Us.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+}
+
+.sign-up {
+    background-image: url('./images/Sign\ Up.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+}
+
+.marketing {
+    background-image: url('./images/Marketing.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+}
+
+.consulting {
+    background-image: url('./images/Consulting.jpg');
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+}
